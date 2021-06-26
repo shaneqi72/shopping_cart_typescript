@@ -1,6 +1,6 @@
 import CartItem from "./CartItem";
 import { CartItemType } from "../App";
-import { makeStyles, withWidth } from "@material-ui/core";
+import { makeStyles } from "@material-ui/core";
 
 type Props = {
   cartItems: CartItemType[];
